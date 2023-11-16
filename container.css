@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: Inter;
+  min-height: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./fonts/Inter.ttf");
+}
+
+.container {
+  font-family: Inter;
+  background: #FFCD9E;
+  display: flex;
+  width: 1440px;
+  height: 592px;
+}
+
+.left-div {
+  float: left;
+  flex: 1;
+  margin: 83px 136px;
+}
+
+.left-div h2 {
+  width: 562px;
+  color: #282828;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 54px */
+
+}
+
+.p1 {
+  width: 465px;
+  height: 81px;
+  font-size: 20px;
+  color: #484848;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;/
+}
+
+.p2 {
+  display: flex;
+  width: 227px;
+  height: 81px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #282828;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+}
+
+
+.p3 {
+  color: #282828;
+  font-family: Inter;
+  font-size: 41.51px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.child1-left {
+  display: inline-block;
+}
+
+.right-div {
+  float: right;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bootm_left-div {
+
+  float: left;
+  flex: 1;
+  margin: 62px 191px;
+}
+
+input[type=email] {
+  width: 344px;
+  height: 64px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+
+input,
+input::placeholder {
+  font-size: 1.2rem;
+}
+
+.button {
+  background-color: black;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  padding: 17px;
+  border-color: black;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 8px;
+  line-height: normal;
+}
+
+.footer {
+  width: 1440px;
+  height: 335px;
+  flex-shrink: 0;
+  background: #282828;
+}
+
+.footer-left {
+  margin: 62px 191px;
+  float: left;
+  flex: 1;
+
+}
+
+.footer-right {
+  margin: 62px 193px;
+  float: right;
+  flex: 1;
+
+}
+
+ul {
+  list-style: none;
+  font-style: normal;
+  color: #FFF;
+  justify-content: space-between;
+  line-height: 2em;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  /* 32px */
+
+}
+
+.rightul {
+  text-align: end;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 5px;
+}
